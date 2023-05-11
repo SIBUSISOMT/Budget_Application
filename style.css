@@ -62,7 +62,7 @@ body{
     display:block;
     width: 100%;
     padding: 0.6em 0.3em;
-    border: 2px solid #1f0808;
+    border: 3px solid #0e57b6;
     border-radius: 0.4em;
 }
 .total-amount-container,
@@ -147,6 +147,11 @@ body{
 
     color: rgb(79, 85, 85);
     padding-bottom: 1em;
+}
+#name{
+    
+    border-top: 3px solid #034786;
+
 }
 
 
