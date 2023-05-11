@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div class="wrapper">
+    <div class="container">
+        <div class="sub-container">
+            <div class="total-amount-container">
+                <h3 id="IncomeTitle">Income</h3>
+                <p id="space">s</p>  
+                 <input type=" text" id="name" placeholder="Enter name"/>
+                <input type=" number" id="total-amount" placeholder="Enter Net-Income"/>
+                <button class="submit">submit</button>
+
+
+            </div>
+            <div class="user-amount-container">
+                <h3 id="expenseTitle">Expenses</h3>
+                <input type=" text" id="product-title" class="product-title" placeholder="Enter expense"/>
+                <input type=" number" id="user-amount" placeholder="Enter amount"/>
+                <button class="submit" id="check-amount">Add</button>
+
+            </div>
+        </div>
+                <div class="output-container flex-space">
+                <div>
+                    <p>Total Income</p>
+                    <span id="amount">0</span>
+                </div>
+                <div>
+                    <p>Total Expenses</p>
+                    <span id="expenditure-value">0</span>
+                </div>
+                <div>
+                    <p>Balance</p>
+                    <span id="balance-amount">0</span>
+                </div>
+                </div>
+
+    </div>
+    <div class="list">
+        <h3 id="IncomeTitle">Expense List</h3>
+        <div class="list-container">
+            
+        </div>
+    </div>
+</div>    
+</body>
+</html>

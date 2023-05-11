@@ -1,0 +1,156 @@
+:root{
+    --white-color:#fdfdfd;
+   --bitDark-color:#333;
+   --purple-color:#754ef9;
+   --white-color: #fdfdfd;
+   --darkPurple-color:rgba(0, 0, 0, .2);
+}
+*{
+
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ font-family: "poppins", sans-serif;
+
+}
+body{
+   
+  background-color: #05131d
+
+}
+
+.wrapper{
+
+    width: 90%;
+    font-size: 16px;
+    max-width: 43.75em;
+    margin: 1em auto;
+
+}
+.container{
+
+    width: 100%;
+
+}
+.sub-container{
+
+    width:100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3em;
+    align-items: center;
+
+}
+.flex{
+
+    display: flex;
+    align-items: center;
+
+}
+.flex-space{
+
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+
+}
+.wrapper h3{
+    color: #363d55;
+}
+.container input{
+
+    display:block;
+    width: 100%;
+    padding: 0.6em 0.3em;
+    border: 2px solid #1f0808;
+    border-radius: 0.4em;
+}
+.total-amount-container,
+.user-amount-container{
+
+    background-color: #072c4e;
+    padding: 1.25em 0.9em;
+    border-radius: 1rem;
+    box-shadow: 0.6em 1.2em rgba(28, 0, 80, 0.06);
+    border-top: 3px solid #034786;
+    border-left: 3px solid #034786;
+    border-right: 3px solid #034786;
+    
+    
+}
+.output-container{
+
+    border-radius: 1rem;
+    box-shadow: 0.6em 1.2em rgba(28, 0, 80, 0.06);
+    font-weight: 500;
+    margin: 2em 0;
+    padding: 1em;
+    border-top: 3px solid #034786;
+    border-left: 3px solid #034786;
+    border-right: 3px solid #034786;
+    color: rgb(79, 85, 85);
+}
+.output-container p{
+
+    font-weight: 500;
+    margin-bottom: 0.6em;
+
+}
+.output-container span{
+    
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    
+
+} .submit{
+
+    font-size: 1em;
+    margin-top: 1em;
+    background-color: #034786;
+    border-radius: none;
+    outline: none;
+    color: rgb(12, 15, 15);
+    padding: 0.6em 1em;
+     border-radius: 1rem; 
+    cursor: pointer; 
+
+}
+.list{
+    
+    padding: 1.8em 1.2em;
+    box-shadow: 0.6em 1.2em rgba(28, 0, 80, 0.06);
+    border-radius: 1rem;
+    border-bottom: 3px solid #034786;
+    border-top: 3px solid #034786;
+  
+}
+.hide{
+
+    display: none;
+
+}
+#IncomeTitle{
+
+    color: rgb(79, 85, 85);
+
+}
+#product-title, #user-amount, #total-amount{
+    padding-bottom: 1em;
+    border-top: 3px solid #034786;
+}
+#space{
+
+    color:#072c4e
+}
+#expenseTitle{
+
+    color: rgb(79, 85, 85);
+    padding-bottom: 1em;
+}
+
+
+
+
+
+
