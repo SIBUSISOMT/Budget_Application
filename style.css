@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
 :root{
     --white-color:#fdfdfd;
    --bitDark-color:#333;
@@ -5,6 +8,7 @@
    --white-color: #fdfdfd;
    --darkPurple-color:rgba(0, 0, 0, .2);
 }
+
 *{
 
  padding: 0;
@@ -50,8 +54,9 @@ body{
 .flex-space{
 
     display: flex;
-     justify-content: space-between;
-     align-items: center;
+    justify-content: space-between;
+    
+    align-items: center;
 
 }
 .wrapper h3{
@@ -64,6 +69,8 @@ body{
     padding: 0.6em 0.3em;
     border: 3px solid #0e57b6;
     border-radius: 0.4em;
+    background-color: #c1c7cc;
+
 }
 .total-amount-container,
 .user-amount-container{
@@ -116,8 +123,8 @@ body{
     cursor: pointer; 
 
 }
-.list{
-    
+#list{
+   
     padding: 1.8em 1.2em;
     box-shadow: 0.6em 1.2em rgba(28, 0, 80, 0.06);
     border-radius: 1rem;
@@ -125,14 +132,11 @@ body{
     border-top: 3px solid #034786;
   
 }
-.hide{
 
-    display: none;
-
-}
 #IncomeTitle{
 
     color: rgb(79, 85, 85);
+    padding: rem;
 
 }
 #product-title, #user-amount, #total-amount{
@@ -153,8 +157,18 @@ body{
     border-top: 3px solid #034786;
 
 }
-
-
+::placeholder{
+    color: #0e0216;
+    font-family:url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+}
+p{
+    color: #6d6a6a;
+    padding: 2px;
+}
+#ExpTitle{
+    color: rgb(79, 85, 85);
+    padding-bottom: 1rem;
+}
 
 
 
