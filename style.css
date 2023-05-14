@@ -70,6 +70,7 @@ body{
     border: 3px solid #0e57b6;
     border-radius: 0.4em;
     background-color: #c1c7cc;
+   
 
 }
 .total-amount-container,
@@ -136,12 +137,17 @@ body{
 #IncomeTitle{
 
     color: rgb(79, 85, 85);
-    padding: rem;
+    padding-bottom: 1rem;
 
 }
-#product-title, #user-amount, #total-amount{
-    padding-bottom: 1em;
+#product-title, #user-amount, #total-amount,#name{
+    padding: 1em;
     border-top: 3px solid #034786;
+}
+#name, #product-title{
+
+    margin-bottom: 5px;
+    
 }
 #space{
 
@@ -152,11 +158,7 @@ body{
     color: rgb(79, 85, 85);
     padding-bottom: 1em;
 }
-#name{
-    
-    border-top: 3px solid #034786;
 
-}
 ::placeholder{
     color: #0e0216;
     font-family:url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
@@ -167,7 +169,7 @@ p{
 }
 #ExpTitle{
     color: rgb(79, 85, 85);
-    padding-bottom: 1rem;
+    padding: 1rem;
 }
 
 
